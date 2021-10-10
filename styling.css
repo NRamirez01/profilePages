@@ -21,15 +21,16 @@
 .banner, .container, .connections {
     margin-bottom: 30px;
 }
-.portal{
+.portal, .out{
     color: white;
     display: flex;
     align-items: center;
 }
 .out{
-    color: white;
-    display: flex;
-    align-items: center;
+    background-color: blue;
+    height: 50%;
+    align-self: center;
+    padding: 0px 25px 0px;
 }
 .sidebars{
     margin-right: 20%;
@@ -83,14 +84,27 @@
     width: 500px;
     height: 500px;
 }
-.edutop, .listcont, .req {
+.edutop, .lcont, .req {
     background-color: black;
     color: white;
+}
+.edutop {
+    padding-left: 40px;
 }
 .edubot, .list, footer, .incoming{
     border: solid 4px lightgrey;
 }
-.listcont, .req {
+.edubot {
+    padding-left: 40px;
+}
+.first {
+    font-size: 25px;
+}
+.sec {
+    font-size: 15px;
+    color: lightgray;
+}
+.lcont, .req {
         display: flex;
         justify-content: center;
         height: 75px;
@@ -112,10 +126,20 @@
     align-items: center;
     justify-content: center;
 }
-
-.list, .incoming {
+.incoming{
     padding-left: 20px;
 }
-.listcont .circle {
+.yesno{
+    padding: 100px;
+    align-self: flex-end;
+}
+.list {
+    padding-left: 20px;
+}
+.lcont .circle {
     width: 75px;
+}
+.view {
+    text-decoration: underline;
+    padding-left: 20px;
 }
