@@ -74,6 +74,8 @@
 }
 .gear, .loc {
     width: 15px;
+    vertical-align: -5px;
+    margin-right: 10px;
 }
 .name {
     font-size: 30px;
@@ -90,6 +92,10 @@
 }
 .edutop {
     padding-left: 40px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
 }
 .edubot, .list, footer, .incoming{
     border: solid 4px lightgrey;
@@ -127,14 +133,28 @@
     justify-content: center;
 }
 .incoming{
+    display: flex;
+    flex-direction: column;
+}
+.helpme{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    margin-left: 20px;
     padding-left: 20px;
+    justify-content: space-between;
 }
 .yesno{
-    padding: 100px;
-    align-self: flex-end;
+    width: 50px;
+    margin-left: 215px;
 }
 .list {
     padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .lcont .circle {
     width: 75px;
