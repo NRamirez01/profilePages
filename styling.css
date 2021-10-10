@@ -1,0 +1,88 @@
+.banner{
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: black;
+    padding: 0px 20% 0px
+}
+.banner, .container, .connections {
+    margin-bottom: 30px;
+}
+.portal{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.portal div{
+    margin-right: 25px;
+}
+.out{
+    color: white;
+}
+.sidebars{
+    margin-right: 20%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-between;
+}
+.userinfo {
+    margin: 0 px auto;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+}
+.container{
+    width: 800px;
+    height: 375px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.top {
+    background-color: #2596be;
+    flex: 1;
+}
+.bottom {
+    background-color: white;
+    flex: 3;
+    border: solid 4px lightgrey;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 38px;
+    left: 50px;
+    margin-bottom: 10px;
+}
+.icon {
+    width: 100px;
+    border: solid 4px lightgrey;
+    border-radius: 50%;
+}
+.gear, .loc {
+    width: 15px;
+}
+.name {
+    font-size: 30px;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 500px;
+}
+.edutop, .listcont, .req {
+    background-color: black;
+    color: white;
+}
+.edubot, .list, footer, .incoming{
+    border: solid 4px lightgrey;
+}
+.listcont, .req {
+    text-align: center;
+}
+.tiny {
+    width: 50px;
+}
